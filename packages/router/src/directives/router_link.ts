@@ -180,7 +180,7 @@ export class RouterLinkWithHref implements OnChanges, OnDestroy {
   private commands: any[] = [];
   private subscription: Subscription;
   private preserve: boolean;
-  reachable: boolean = true;
+  private reachable: boolean = true;
   // the url displayed on the anchor element.
   @HostBinding() href: string;
 
